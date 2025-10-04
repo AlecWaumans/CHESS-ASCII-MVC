@@ -1,0 +1,99 @@
+# ==============================
+# Java / Maven project .gitignore
+# ==============================
+
+# --- Build outputs ---
+target/
+out/
+build/
+dist/
+
+# Keep Maven Wrapper (commit these files)
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+!.mvn/wrapper/
+!mvnw
+!mvnw.cmd
+
+# Maven transient files
+.mvn/timing.properties
+.mvn/jvm.config
+.mvn/wrapper/maven-wrapper.jar.sha256
+
+# --- IDEs & editors ---
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+.loadpath
+.factorypath
+
+# NetBeans
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+*.orig
+
+# VS Code
+.vscode/
+
+# --- OS-specific ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+__MACOSX/
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Logs & temp ---
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# --- Coverage / reports ---
+.coverage
+coverage/
+.site/
+jacoco.exec
+surefire-reports/
+failsafe-reports/
+
+# --- Java & tooling caches ---
+.classpath
+.project
+.settings/
+.class
+*.class
+hs_err_pid*
+replay_pid*
+
+# --- Archives (optional) ---
+*.zip
+*.tar
+*.tar.gz
+
+# --- Node/Front-end (if any UI submodule) ---
+node_modules/
+npm-debug.log*
+yarn-error.log*
+dist/
+
+# --- Misc ---
+*.local
+*.env
+.env.*
+
